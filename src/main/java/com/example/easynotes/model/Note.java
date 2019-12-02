@@ -18,6 +18,11 @@ import java.util.Date;
 @JsonIgnoreProperties(value = {"createdAt", "updatedAt"},
         allowGetters = true)
 public class Note {
+
+//    https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/
+    
+    
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
